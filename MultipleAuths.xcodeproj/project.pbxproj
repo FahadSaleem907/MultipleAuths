@@ -9,10 +9,34 @@
 /* Begin PBXBuildFile section */
 		E10CE9C428F4D0F7005E5626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CE9C328F4D0F7005E5626 /* AppDelegate.swift */; };
 		E10CE9C628F4D0F7005E5626 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CE9C528F4D0F7005E5626 /* SceneDelegate.swift */; };
-		E10CE9C828F4D0F7005E5626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CE9C728F4D0F7005E5626 /* ViewController.swift */; };
+		E10CE9C828F4D0F7005E5626 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CE9C728F4D0F7005E5626 /* MainVC.swift */; };
 		E10CE9CB28F4D0F7005E5626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9C928F4D0F7005E5626 /* Main.storyboard */; };
 		E10CE9CD28F4D0F9005E5626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9CC28F4D0F9005E5626 /* Assets.xcassets */; };
 		E10CE9D028F4D0F9005E5626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9CE28F4D0F9005E5626 /* LaunchScreen.storyboard */; };
+		E10CE9DD28F4D385005E5626 /* Instagram.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9DC28F4D385005E5626 /* Instagram.storyboard */; };
+		E10CE9DF28F4D39E005E5626 /* Facebook.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9DE28F4D39E005E5626 /* Facebook.storyboard */; };
+		E10CE9E128F4D3A8005E5626 /* Twitter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9E028F4D3A8005E5626 /* Twitter.storyboard */; };
+		E10CE9E328F4D3B1005E5626 /* Snapchat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9E228F4D3B1005E5626 /* Snapchat.storyboard */; };
+		E10CE9E528F4D3C0005E5626 /* Canva.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9E428F4D3C0005E5626 /* Canva.storyboard */; };
+		E10CE9E728F4D3D5005E5626 /* Schoology.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9E628F4D3D5005E5626 /* Schoology.storyboard */; };
+		E10CE9E928F4D3DF005E5626 /* Google.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9E828F4D3DF005E5626 /* Google.storyboard */; };
+		E10CE9EB28F4D3E7005E5626 /* Apple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9EA28F4D3E7005E5626 /* Apple.storyboard */; };
+		E10CE9ED28F4D3F2005E5626 /* Blackboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10CE9EC28F4D3F2005E5626 /* Blackboard.storyboard */; };
+		E10CE9F228F4D4CA005E5626 /* MainTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CE9F128F4D4CA005E5626 /* MainTBC.swift */; };
+		E10CE9FD28F4D6EA005E5626 /* AppleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CE9FC28F4D6EA005E5626 /* AppleVC.swift */; };
+		E10CE9FF28F4D6F7005E5626 /* BlackboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CE9FE28F4D6F7005E5626 /* BlackboardVC.swift */; };
+		E10CEA0128F4D702005E5626 /* CanvaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA0028F4D702005E5626 /* CanvaVC.swift */; };
+		E10CEA0328F4D711005E5626 /* FacebookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA0228F4D711005E5626 /* FacebookVC.swift */; };
+		E10CEA0528F4D71C005E5626 /* GoogleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA0428F4D71C005E5626 /* GoogleVC.swift */; };
+		E10CEA0728F4D728005E5626 /* InstagramVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA0628F4D728005E5626 /* InstagramVC.swift */; };
+		E10CEA0928F4D734005E5626 /* SchoologyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA0828F4D734005E5626 /* SchoologyVC.swift */; };
+		E10CEA0B28F4D741005E5626 /* SnapchatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA0A28F4D741005E5626 /* SnapchatVC.swift */; };
+		E10CEA0D28F4D750005E5626 /* TwitterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10CEA0C28F4D750005E5626 /* TwitterVC.swift */; };
+		E1E4B66128F4DDEF00E5EEED /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B66028F4DDEF00E5EEED /* URLs.swift */; };
+		E1E4B66428F4DE8000E5EEED /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B66328F4DE8000E5EEED /* NetworkManager.swift */; };
+		E1E4B66628F4DE9500E5EEED /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B66528F4DE9500E5EEED /* RequestManager.swift */; };
+		E1E4B66828F4DEE000E5EEED /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B66728F4DEE000E5EEED /* APIManager.swift */; };
+		E1E4B66B28F4E01300E5EEED /* StaticValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B66A28F4E01300E5EEED /* StaticValues.swift */; };
 		FDEB87DDDAD7D2B37FF47F5A /* Pods_MultipleAuths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECD76B2599D976F033D4A58 /* Pods_MultipleAuths.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,11 +46,35 @@
 		E10CE9C028F4D0F7005E5626 /* MultipleAuths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleAuths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10CE9C328F4D0F7005E5626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E10CE9C528F4D0F7005E5626 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E10CE9C728F4D0F7005E5626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E10CE9C728F4D0F7005E5626 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		E10CE9CA28F4D0F7005E5626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E10CE9CC28F4D0F9005E5626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E10CE9CF28F4D0F9005E5626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E10CE9D128F4D0F9005E5626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10CE9DC28F4D385005E5626 /* Instagram.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Instagram.storyboard; sourceTree = "<group>"; };
+		E10CE9DE28F4D39E005E5626 /* Facebook.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Facebook.storyboard; sourceTree = "<group>"; };
+		E10CE9E028F4D3A8005E5626 /* Twitter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Twitter.storyboard; sourceTree = "<group>"; };
+		E10CE9E228F4D3B1005E5626 /* Snapchat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Snapchat.storyboard; sourceTree = "<group>"; };
+		E10CE9E428F4D3C0005E5626 /* Canva.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Canva.storyboard; sourceTree = "<group>"; };
+		E10CE9E628F4D3D5005E5626 /* Schoology.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Schoology.storyboard; sourceTree = "<group>"; };
+		E10CE9E828F4D3DF005E5626 /* Google.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Google.storyboard; sourceTree = "<group>"; };
+		E10CE9EA28F4D3E7005E5626 /* Apple.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Apple.storyboard; sourceTree = "<group>"; };
+		E10CE9EC28F4D3F2005E5626 /* Blackboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Blackboard.storyboard; sourceTree = "<group>"; };
+		E10CE9F128F4D4CA005E5626 /* MainTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTBC.swift; sourceTree = "<group>"; };
+		E10CE9FC28F4D6EA005E5626 /* AppleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleVC.swift; sourceTree = "<group>"; };
+		E10CE9FE28F4D6F7005E5626 /* BlackboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackboardVC.swift; sourceTree = "<group>"; };
+		E10CEA0028F4D702005E5626 /* CanvaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvaVC.swift; sourceTree = "<group>"; };
+		E10CEA0228F4D711005E5626 /* FacebookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookVC.swift; sourceTree = "<group>"; };
+		E10CEA0428F4D71C005E5626 /* GoogleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleVC.swift; sourceTree = "<group>"; };
+		E10CEA0628F4D728005E5626 /* InstagramVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramVC.swift; sourceTree = "<group>"; };
+		E10CEA0828F4D734005E5626 /* SchoologyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoologyVC.swift; sourceTree = "<group>"; };
+		E10CEA0A28F4D741005E5626 /* SnapchatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapchatVC.swift; sourceTree = "<group>"; };
+		E10CEA0C28F4D750005E5626 /* TwitterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterVC.swift; sourceTree = "<group>"; };
+		E1E4B66028F4DDEF00E5EEED /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		E1E4B66328F4DE8000E5EEED /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E1E4B66528F4DE9500E5EEED /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		E1E4B66728F4DEE000E5EEED /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E1E4B66A28F4E01300E5EEED /* StaticValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticValues.swift; sourceTree = "<group>"; };
 		F499598B181D029C42BDBFFC /* Pods-MultipleAuths.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleAuths.release.xcconfig"; path = "Target Support Files/Pods-MultipleAuths/Pods-MultipleAuths.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +96,6 @@
 				DB66062559E8979C217F4529 /* Pods-MultipleAuths.debug.xcconfig */,
 				F499598B181D029C42BDBFFC /* Pods-MultipleAuths.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -63,6 +110,13 @@
 		E10CE9B728F4D0F7005E5626 = {
 			isa = PBXGroup;
 			children = (
+				E1E4B66928F4DF2E00E5EEED /* Helpers */,
+				E1E4B66228F4DDF800E5EEED /* Models */,
+				E1E4B65F28F4DDD100E5EEED /* Network */,
+				E10CE9DB28F4D2AC005E5626 /* Controllers */,
+				E10CE9DA28F4D29E005E5626 /* StoryBoards */,
+				E10CE9D828F4D23A005E5626 /* Assets */,
+				E10CE9D728F4D225005E5626 /* Important */,
 				E10CE9C228F4D0F7005E5626 /* MultipleAuths */,
 				E10CE9C128F4D0F7005E5626 /* Products */,
 				6371724114DC486480CCC057 /* Pods */,
@@ -81,15 +135,176 @@
 		E10CE9C228F4D0F7005E5626 /* MultipleAuths */ = {
 			isa = PBXGroup;
 			children = (
-				E10CE9C328F4D0F7005E5626 /* AppDelegate.swift */,
-				E10CE9C528F4D0F7005E5626 /* SceneDelegate.swift */,
-				E10CE9C728F4D0F7005E5626 /* ViewController.swift */,
-				E10CE9C928F4D0F7005E5626 /* Main.storyboard */,
-				E10CE9CC28F4D0F9005E5626 /* Assets.xcassets */,
-				E10CE9CE28F4D0F9005E5626 /* LaunchScreen.storyboard */,
-				E10CE9D128F4D0F9005E5626 /* Info.plist */,
 			);
 			path = MultipleAuths;
+			sourceTree = "<group>";
+		};
+		E10CE9D728F4D225005E5626 /* Important */ = {
+			isa = PBXGroup;
+			children = (
+				E10CE9C328F4D0F7005E5626 /* AppDelegate.swift */,
+				E10CE9C528F4D0F7005E5626 /* SceneDelegate.swift */,
+				E10CE9D128F4D0F9005E5626 /* Info.plist */,
+			);
+			path = Important;
+			sourceTree = "<group>";
+		};
+		E10CE9D828F4D23A005E5626 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E10CE9D928F4D259005E5626 /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E10CE9D928F4D259005E5626 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E10CE9CC28F4D0F9005E5626 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E10CE9DA28F4D29E005E5626 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E10CE9C928F4D0F7005E5626 /* Main.storyboard */,
+				E10CE9CE28F4D0F9005E5626 /* LaunchScreen.storyboard */,
+				E10CE9EA28F4D3E7005E5626 /* Apple.storyboard */,
+				E10CE9EC28F4D3F2005E5626 /* Blackboard.storyboard */,
+				E10CE9E428F4D3C0005E5626 /* Canva.storyboard */,
+				E10CE9DE28F4D39E005E5626 /* Facebook.storyboard */,
+				E10CE9E828F4D3DF005E5626 /* Google.storyboard */,
+				E10CE9DC28F4D385005E5626 /* Instagram.storyboard */,
+				E10CE9E628F4D3D5005E5626 /* Schoology.storyboard */,
+				E10CE9E228F4D3B1005E5626 /* Snapchat.storyboard */,
+				E10CE9E028F4D3A8005E5626 /* Twitter.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		E10CE9DB28F4D2AC005E5626 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E10CE9F328F4D5FC005E5626 /* Apple */,
+				E10CE9FB28F4D681005E5626 /* Blackboard */,
+				E10CE9F428F4D604005E5626 /* Canva */,
+				E10CE9FA28F4D654005E5626 /* Facebook */,
+				E10CE9F928F4D644005E5626 /* Google */,
+				E10CE9F828F4D63E005E5626 /* Instagram */,
+				E10CE9F728F4D62E005E5626 /* Schoology */,
+				E10CE9F628F4D622005E5626 /* Snapchat */,
+				E10CE9F528F4D61C005E5626 /* Twitter */,
+				E10CE9EE28F4D48B005E5626 /* MainBoard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E10CE9EE28F4D48B005E5626 /* MainBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E10CE9C728F4D0F7005E5626 /* MainVC.swift */,
+				E10CE9F128F4D4CA005E5626 /* MainTBC.swift */,
+			);
+			path = MainBoard;
+			sourceTree = "<group>";
+		};
+		E10CE9F328F4D5FC005E5626 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				E10CE9FC28F4D6EA005E5626 /* AppleVC.swift */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		E10CE9F428F4D604005E5626 /* Canva */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA0028F4D702005E5626 /* CanvaVC.swift */,
+			);
+			path = Canva;
+			sourceTree = "<group>";
+		};
+		E10CE9F528F4D61C005E5626 /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA0C28F4D750005E5626 /* TwitterVC.swift */,
+			);
+			path = Twitter;
+			sourceTree = "<group>";
+		};
+		E10CE9F628F4D622005E5626 /* Snapchat */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA0A28F4D741005E5626 /* SnapchatVC.swift */,
+			);
+			path = Snapchat;
+			sourceTree = "<group>";
+		};
+		E10CE9F728F4D62E005E5626 /* Schoology */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA0828F4D734005E5626 /* SchoologyVC.swift */,
+			);
+			path = Schoology;
+			sourceTree = "<group>";
+		};
+		E10CE9F828F4D63E005E5626 /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA0628F4D728005E5626 /* InstagramVC.swift */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		E10CE9F928F4D644005E5626 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA0428F4D71C005E5626 /* GoogleVC.swift */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		E10CE9FA28F4D654005E5626 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				E10CEA0228F4D711005E5626 /* FacebookVC.swift */,
+			);
+			path = Facebook;
+			sourceTree = "<group>";
+		};
+		E10CE9FB28F4D681005E5626 /* Blackboard */ = {
+			isa = PBXGroup;
+			children = (
+				E10CE9FE28F4D6F7005E5626 /* BlackboardVC.swift */,
+			);
+			path = Blackboard;
+			sourceTree = "<group>";
+		};
+		E1E4B65F28F4DDD100E5EEED /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E1E4B66028F4DDEF00E5EEED /* URLs.swift */,
+				E1E4B66328F4DE8000E5EEED /* NetworkManager.swift */,
+				E1E4B66528F4DE9500E5EEED /* RequestManager.swift */,
+				E1E4B66728F4DEE000E5EEED /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E1E4B66228F4DDF800E5EEED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E1E4B66928F4DF2E00E5EEED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E1E4B66A28F4E01300E5EEED /* StaticValues.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +367,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10CE9E528F4D3C0005E5626 /* Canva.storyboard in Resources */,
+				E10CE9E128F4D3A8005E5626 /* Twitter.storyboard in Resources */,
+				E10CE9E728F4D3D5005E5626 /* Schoology.storyboard in Resources */,
+				E10CE9E928F4D3DF005E5626 /* Google.storyboard in Resources */,
 				E10CE9D028F4D0F9005E5626 /* LaunchScreen.storyboard in Resources */,
+				E10CE9DF28F4D39E005E5626 /* Facebook.storyboard in Resources */,
+				E10CE9EB28F4D3E7005E5626 /* Apple.storyboard in Resources */,
+				E10CE9E328F4D3B1005E5626 /* Snapchat.storyboard in Resources */,
+				E10CE9DD28F4D385005E5626 /* Instagram.storyboard in Resources */,
+				E10CE9ED28F4D3F2005E5626 /* Blackboard.storyboard in Resources */,
 				E10CE9CD28F4D0F9005E5626 /* Assets.xcassets in Resources */,
 				E10CE9CB28F4D0F7005E5626 /* Main.storyboard in Resources */,
 			);
@@ -207,9 +431,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E10CE9C828F4D0F7005E5626 /* ViewController.swift in Sources */,
+				E10CE9C828F4D0F7005E5626 /* MainVC.swift in Sources */,
+				E10CEA0728F4D728005E5626 /* InstagramVC.swift in Sources */,
+				E10CE9FF28F4D6F7005E5626 /* BlackboardVC.swift in Sources */,
+				E1E4B66628F4DE9500E5EEED /* RequestManager.swift in Sources */,
+				E1E4B66128F4DDEF00E5EEED /* URLs.swift in Sources */,
 				E10CE9C428F4D0F7005E5626 /* AppDelegate.swift in Sources */,
+				E10CE9FD28F4D6EA005E5626 /* AppleVC.swift in Sources */,
+				E10CEA0128F4D702005E5626 /* CanvaVC.swift in Sources */,
+				E10CEA0B28F4D741005E5626 /* SnapchatVC.swift in Sources */,
+				E10CE9F228F4D4CA005E5626 /* MainTBC.swift in Sources */,
+				E10CEA0D28F4D750005E5626 /* TwitterVC.swift in Sources */,
+				E10CEA0328F4D711005E5626 /* FacebookVC.swift in Sources */,
 				E10CE9C628F4D0F7005E5626 /* SceneDelegate.swift in Sources */,
+				E1E4B66428F4DE8000E5EEED /* NetworkManager.swift in Sources */,
+				E1E4B66828F4DEE000E5EEED /* APIManager.swift in Sources */,
+				E1E4B66B28F4E01300E5EEED /* StaticValues.swift in Sources */,
+				E10CEA0928F4D734005E5626 /* SchoologyVC.swift in Sources */,
+				E10CEA0528F4D71C005E5626 /* GoogleVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +598,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3FRZ4833T9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultipleAuths/Info.plist;
+				INFOPLIST_FILE = Important/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -388,7 +627,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3FRZ4833T9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MultipleAuths/Info.plist;
+				INFOPLIST_FILE = Important/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

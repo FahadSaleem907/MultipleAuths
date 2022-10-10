@@ -7,6 +7,10 @@ target 'MultipleAuths' do
 
   # Pods for MultipleAuths
 
+#Keyboard
 pod 'IQKeyboardManager', '~> 6.5'
+
+#Data
+pod 'Alamofire'
 
 end

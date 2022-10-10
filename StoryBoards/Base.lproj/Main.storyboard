@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MainVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="MultipleAuths" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GoodLuck" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKd-Xa-Q0I">
+                                <rect key="frame" x="41.5" y="423" width="331" height="60"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fA9-CR-x1N">
+                                <rect key="frame" x="52" y="762" width="310.5" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="prf-hv-ZOG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Lets Go">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Hco-E7-il6" kind="show" id="9xC-v4-TpY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fA9-CR-x1N" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KcQ-OQ-GVX"/>
+                            <constraint firstItem="fA9-CR-x1N" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.75" id="LJJ-Nq-YSF"/>
+                            <constraint firstItem="lKd-Xa-Q0I" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Miw-E8-eKy"/>
+                            <constraint firstItem="lKd-Xa-Q0I" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="WCM-F8-CYs"/>
+                            <constraint firstItem="lKd-Xa-Q0I" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Yf8-GI-AF4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fA9-CR-x1N" secondAttribute="bottom" constant="50" id="fOu-bF-ipr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="86"/>
+        </scene>
+        <!--AppleNav-->
+        <scene sceneID="ZJ0-t2-tPA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Apple" referencedIdentifier="AppleNav" id="4bj-bc-Dtg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="O5y-Kb-rRE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1pu-P6-sSa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="270" y="505"/>
+        </scene>
+        <!--BlackboardNav-->
+        <scene sceneID="M3E-BR-7HM">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Blackboard" referencedIdentifier="BlackboardNav" id="lCm-Td-Vf7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="MRa-x4-PRd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yFQ-NA-wBE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="469" y="505"/>
+        </scene>
+        <!--InstagramNav-->
+        <scene sceneID="nsV-97-RvJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Instagram" referencedIdentifier="InstagramNav" id="rCR-PY-dN5" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="eDr-jy-VKn"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gc5-nN-q8j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1446" y="505"/>
+        </scene>
+        <!--SchoologyNav-->
+        <scene sceneID="bmi-fa-Jq9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Schoology" referencedIdentifier="SchoologyNav" id="YPo-Nk-pII" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="IpR-lM-eQK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W8c-PX-Jem" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1714" y="505"/>
+        </scene>
+        <!--SnapchatNav-->
+        <scene sceneID="wqX-mr-CCl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Snapchat" referencedIdentifier="SnapchatNav" id="Fal-Fh-y9Q" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Tmg-px-rZb"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ssE-Jm-4ZJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1946" y="505"/>
+        </scene>
+        <!--TwitterNav-->
+        <scene sceneID="QX7-rU-g0l">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Twitter" referencedIdentifier="TwitterNav" id="3yR-ii-lfo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Dku-I2-EEa"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JRx-hJ-sP1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2211" y="505"/>
+        </scene>
+        <!--GoogleNav-->
+        <scene sceneID="5NM-ta-LZe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Google" referencedIdentifier="GoogleNav" id="9Uo-VC-YjZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="JOx-M9-Spj"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wmy-Co-UOK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1204" y="505"/>
+        </scene>
+        <!--FacebookNav-->
+        <scene sceneID="ghW-vD-WsJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Facebook" referencedIdentifier="FacebookNav" id="fpr-TL-tix" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="XNy-Yy-jX4"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8jA-83-pim" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="920" y="505"/>
+        </scene>
+        <!--CanvaNav-->
+        <scene sceneID="TOT-yM-3qf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Canva" referencedIdentifier="CanvaNav" id="cdP-Hd-5g0" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="hs0-OF-EIc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nxw-YD-gOQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="672" y="505"/>
+        </scene>
+        <!--MainTBC-->
+        <scene sceneID="OtG-E4-W7E">
+            <objects>
+                <tabBarController modalPresentationStyle="fullScreen" id="Hco-E7-il6" customClass="MainTBC" customModule="MultipleAuths" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bkl-Sh-Ny7"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="N3n-kr-YLg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4bj-bc-Dtg" kind="relationship" relationship="viewControllers" id="vof-cC-ofT"/>
+                        <segue destination="lCm-Td-Vf7" kind="relationship" relationship="viewControllers" id="WSY-9Y-7UQ"/>
+                        <segue destination="cdP-Hd-5g0" kind="relationship" relationship="viewControllers" id="UQe-kz-unA"/>
+                        <segue destination="fpr-TL-tix" kind="relationship" relationship="viewControllers" id="7e2-XD-Sgc"/>
+                        <segue destination="9Uo-VC-YjZ" kind="relationship" relationship="viewControllers" id="Gea-hv-Qm9"/>
+                        <segue destination="rCR-PY-dN5" kind="relationship" relationship="viewControllers" id="4C9-Ha-OvA"/>
+                        <segue destination="YPo-Nk-pII" kind="relationship" relationship="viewControllers" id="tGT-JX-aOm"/>
+                        <segue destination="Fal-Fh-y9Q" kind="relationship" relationship="viewControllers" id="XwJ-tt-jrU"/>
+                        <segue destination="3yR-ii-lfo" kind="relationship" relationship="viewControllers" id="Z67-64-gwu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0I8-gR-XTK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="86"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

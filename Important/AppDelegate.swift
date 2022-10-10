@@ -5,20 +5,26 @@
 //  Created by Fahad Saleem on 11/10/2022.
 //
 
+import IQKeyboardManager
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        setupIQKeyboard()
         return true
     }
 
+    //MARK: - ----- Custom Functions -----
+    func setupIQKeyboard(){
+        IQKeyboardManager.shared().isEnabled = true
+    }
+    
+    
     // MARK: UISceneSession Lifecycle
-
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
