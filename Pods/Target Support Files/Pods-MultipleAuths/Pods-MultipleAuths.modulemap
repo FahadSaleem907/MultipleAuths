@@ -1,0 +1,6 @@
+framework module Pods_MultipleAuths {
+  umbrella header "Pods-MultipleAuths-umbrella.h"
+
+  export *
+  module * { export * }
+}
