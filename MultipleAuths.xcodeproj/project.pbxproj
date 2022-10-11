@@ -37,6 +37,12 @@
 		E1E4B66628F4DE9500E5EEED /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B66528F4DE9500E5EEED /* RequestManager.swift */; };
 		E1E4B66828F4DEE000E5EEED /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B66728F4DEE000E5EEED /* APIManager.swift */; };
 		E1E4B66B28F4E01300E5EEED /* StaticValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B66A28F4E01300E5EEED /* StaticValues.swift */; };
+		E1E4B66D28F5892200E5EEED /* SupportFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B66C28F5892200E5EEED /* SupportFunctions.swift */; };
+		E1E4B67028F58BAE00E5EEED /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B66F28F58BAE00E5EEED /* LabelExtension.swift */; };
+		E1E4B67228F58C2800E5EEED /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B67128F58C2800E5EEED /* TextFieldExtension.swift */; };
+		E1E4B67428F58C9F00E5EEED /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B67328F58C9F00E5EEED /* UIDeviceExtension.swift */; };
+		E1E4B67628F58D3500E5EEED /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B67528F58D3500E5EEED /* UIViewControllerExtension.swift */; };
+		E1E4B67828F58E9300E5EEED /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B67728F58E9300E5EEED /* StringExtension.swift */; };
 		FDEB87DDDAD7D2B37FF47F5A /* Pods_MultipleAuths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECD76B2599D976F033D4A58 /* Pods_MultipleAuths.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +81,12 @@
 		E1E4B66528F4DE9500E5EEED /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		E1E4B66728F4DEE000E5EEED /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		E1E4B66A28F4E01300E5EEED /* StaticValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticValues.swift; sourceTree = "<group>"; };
+		E1E4B66C28F5892200E5EEED /* SupportFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportFunctions.swift; sourceTree = "<group>"; };
+		E1E4B66F28F58BAE00E5EEED /* LabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
+		E1E4B67128F58C2800E5EEED /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		E1E4B67328F58C9F00E5EEED /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		E1E4B67528F58D3500E5EEED /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		E1E4B67728F58E9300E5EEED /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		F499598B181D029C42BDBFFC /* Pods-MultipleAuths.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleAuths.release.xcconfig"; path = "Target Support Files/Pods-MultipleAuths/Pods-MultipleAuths.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +122,7 @@
 		E10CE9B728F4D0F7005E5626 = {
 			isa = PBXGroup;
 			children = (
+				E1E4B66E28F58BA000E5EEED /* Extensions */,
 				E1E4B66928F4DF2E00E5EEED /* Helpers */,
 				E1E4B66228F4DDF800E5EEED /* Models */,
 				E1E4B65F28F4DDD100E5EEED /* Network */,
@@ -303,8 +316,21 @@
 			isa = PBXGroup;
 			children = (
 				E1E4B66A28F4E01300E5EEED /* StaticValues.swift */,
+				E1E4B66C28F5892200E5EEED /* SupportFunctions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E1E4B66E28F58BA000E5EEED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E1E4B66F28F58BAE00E5EEED /* LabelExtension.swift */,
+				E1E4B67128F58C2800E5EEED /* TextFieldExtension.swift */,
+				E1E4B67328F58C9F00E5EEED /* UIDeviceExtension.swift */,
+				E1E4B67528F58D3500E5EEED /* UIViewControllerExtension.swift */,
+				E1E4B67728F58E9300E5EEED /* StringExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,11 +460,14 @@
 				E10CE9C828F4D0F7005E5626 /* MainVC.swift in Sources */,
 				E10CEA0728F4D728005E5626 /* InstagramVC.swift in Sources */,
 				E10CE9FF28F4D6F7005E5626 /* BlackboardVC.swift in Sources */,
+				E1E4B67228F58C2800E5EEED /* TextFieldExtension.swift in Sources */,
 				E1E4B66628F4DE9500E5EEED /* RequestManager.swift in Sources */,
 				E1E4B66128F4DDEF00E5EEED /* URLs.swift in Sources */,
 				E10CE9C428F4D0F7005E5626 /* AppDelegate.swift in Sources */,
+				E1E4B67628F58D3500E5EEED /* UIViewControllerExtension.swift in Sources */,
 				E10CE9FD28F4D6EA005E5626 /* AppleVC.swift in Sources */,
 				E10CEA0128F4D702005E5626 /* CanvaVC.swift in Sources */,
+				E1E4B66D28F5892200E5EEED /* SupportFunctions.swift in Sources */,
 				E10CEA0B28F4D741005E5626 /* SnapchatVC.swift in Sources */,
 				E10CE9F228F4D4CA005E5626 /* MainTBC.swift in Sources */,
 				E10CEA0D28F4D750005E5626 /* TwitterVC.swift in Sources */,
@@ -446,6 +475,9 @@
 				E10CE9C628F4D0F7005E5626 /* SceneDelegate.swift in Sources */,
 				E1E4B66428F4DE8000E5EEED /* NetworkManager.swift in Sources */,
 				E1E4B66828F4DEE000E5EEED /* APIManager.swift in Sources */,
+				E1E4B67428F58C9F00E5EEED /* UIDeviceExtension.swift in Sources */,
+				E1E4B67028F58BAE00E5EEED /* LabelExtension.swift in Sources */,
+				E1E4B67828F58E9300E5EEED /* StringExtension.swift in Sources */,
 				E1E4B66B28F4E01300E5EEED /* StaticValues.swift in Sources */,
 				E10CEA0928F4D734005E5626 /* SchoologyVC.swift in Sources */,
 				E10CEA0528F4D71C005E5626 /* GoogleVC.swift in Sources */,

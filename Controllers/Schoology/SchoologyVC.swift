@@ -11,6 +11,8 @@ class SchoologyVC: UIViewController {
 
     //MARK: - ----- Constants -----
     //MARK: - ----- Variables -----
+    
+    
     //MARK: - ----- Outlets -----
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
@@ -27,7 +29,7 @@ class SchoologyVC: UIViewController {
     
     //MARK: - ----- Actions -----
     @IBAction func signInBtn(_ sender: UIButton) {
-        print("Sign In Tapped")
+        
     }
     
     
@@ -40,6 +42,10 @@ class SchoologyVC: UIViewController {
     
     
     //MARK: - ----- Life Cycle -----
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
