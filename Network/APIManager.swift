@@ -5,6 +5,7 @@
 //  Created by Fahad Saleem on 11/10/2022.
 //
 
+import Alamofire
 import Foundation
 
 class APIManager{

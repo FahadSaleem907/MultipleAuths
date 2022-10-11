@@ -15,12 +15,36 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gG-wp-Wsu">
+                                <rect key="frame" x="157" y="400.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9gG-wp-Wsu" secondAttribute="height" multiplier="1:1" id="Xxi-Ve-aH4"/>
+                                    <constraint firstAttribute="height" constant="100" id="hLr-1i-mID"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="SignInBtn:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="7v0-bO-Ag2"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9gG-wp-Wsu" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="Jtt-1d-wca"/>
+                            <constraint firstItem="9gG-wp-Wsu" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Xot-PP-QTr"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Instagram" image="message.fill" catalog="system" id="EPH-1o-PKG"/>
                     <navigationItem key="navigationItem" id="hSm-45-OZi"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="btnSignIn" destination="9gG-wp-Wsu" id="Pef-Zd-FwC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
