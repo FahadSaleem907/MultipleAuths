@@ -29,7 +29,8 @@ class SchoologyVC: UIViewController {
     
     //MARK: - ----- Actions -----
     @IBAction func signInBtn(_ sender: UIButton) {
-        
+        let headerVal = StaticValues.Schoology().createSchoologyHeader()
+        print("Asked")
     }
     
     

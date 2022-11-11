@@ -43,6 +43,7 @@
 		E1E4B67428F58C9F00E5EEED /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B67328F58C9F00E5EEED /* UIDeviceExtension.swift */; };
 		E1E4B67628F58D3500E5EEED /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B67528F58D3500E5EEED /* UIViewControllerExtension.swift */; };
 		E1E4B67828F58E9300E5EEED /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B67728F58E9300E5EEED /* StringExtension.swift */; };
+		E1E4B67A28F5AD5700E5EEED /* UINavigationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4B67928F5AD5700E5EEED /* UINavigationExtension.swift */; };
 		FDEB87DDDAD7D2B37FF47F5A /* Pods_MultipleAuths.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECD76B2599D976F033D4A58 /* Pods_MultipleAuths.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		E1E4B67328F58C9F00E5EEED /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
 		E1E4B67528F58D3500E5EEED /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		E1E4B67728F58E9300E5EEED /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E1E4B67928F5AD5700E5EEED /* UINavigationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationExtension.swift; sourceTree = "<group>"; };
 		F499598B181D029C42BDBFFC /* Pods-MultipleAuths.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultipleAuths.release.xcconfig"; path = "Target Support Files/Pods-MultipleAuths/Pods-MultipleAuths.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -329,6 +331,7 @@
 				E1E4B67328F58C9F00E5EEED /* UIDeviceExtension.swift */,
 				E1E4B67528F58D3500E5EEED /* UIViewControllerExtension.swift */,
 				E1E4B67728F58E9300E5EEED /* StringExtension.swift */,
+				E1E4B67928F5AD5700E5EEED /* UINavigationExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				E10CEA0328F4D711005E5626 /* FacebookVC.swift in Sources */,
 				E10CE9C628F4D0F7005E5626 /* SceneDelegate.swift in Sources */,
 				E1E4B66428F4DE8000E5EEED /* NetworkManager.swift in Sources */,
+				E1E4B67A28F5AD5700E5EEED /* UINavigationExtension.swift in Sources */,
 				E1E4B66828F4DEE000E5EEED /* APIManager.swift in Sources */,
 				E1E4B67428F58C9F00E5EEED /* UIDeviceExtension.swift in Sources */,
 				E1E4B67028F58BAE00E5EEED /* LabelExtension.swift in Sources */,

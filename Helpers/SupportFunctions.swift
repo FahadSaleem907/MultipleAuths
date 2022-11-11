@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class SupportFunctions{
+final class SupportFunctions{
     static let shared = SupportFunctions()
     private init() {}
     
@@ -18,14 +18,14 @@ class SupportFunctions{
     
     struct Validation{
         func isValidEmail(textFieldName: UITextField) -> Bool{
-                let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
-                return NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: textFieldName.text)
-            }
-            
-            func isValidPassword(textFieldName: UITextField) -> Bool{
-                let pwRegex = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$"
-                return NSPredicate(format: "SELF MATCHES %@", pwRegex).evaluate(with: textFieldName.text)
-            }
+            let emailRegex = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+            return NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: textFieldName.text)
+        }
+        
+        func isValidPassword(textFieldName: UITextField) -> Bool{
+            let pwRegex = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$"
+            return NSPredicate(format: "SELF MATCHES %@", pwRegex).evaluate(with: textFieldName.text)
+        }
     }
     
     struct otherFunctions{

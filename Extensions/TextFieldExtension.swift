@@ -30,6 +30,13 @@ extension UITextField {
         self.layer.masksToBounds = true
     }
     
+    func setPlaceholderColor(for txtField: UITextField,color placeholderColor: UIColor, txt placeholderTxt: String){
+        txtField.attributedPlaceholder = NSAttributedString(
+            string: placeholderTxt,
+            attributes: [NSAttributedString.Key.foregroundColor: placeholderColor]
+        )
+    }
+    
     func  charactersLimit(count:Int) {
         if (self.text!.count > count) {
             self.deleteBackward()
